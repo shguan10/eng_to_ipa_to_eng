@@ -1,5 +1,10 @@
-with open("data/eng2ipa.pk","rb") as f: eng2ipa = pk.load(f)
-with open("data/ipa2eng.pk","rb") as f: ipa2eng = pk.load(f)
+import pickle as pk
+
+thisdir = '/'.join(__file__.split('/')[:-1])
+
+
+with open(thisdir+"/data/eng2ipa.pk","rb") as f: eng2ipa = pk.load(f)
+with open(thisdir+"/data/ipa2eng.pk","rb") as f: ipa2eng = pk.load(f)
 
 ipa = list(ipa2eng)
 eng = list(eng2ipa)
