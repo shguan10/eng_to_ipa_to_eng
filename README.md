@@ -8,6 +8,6 @@ This is an extension to eng-to-ipa. Basically I wanted a module that could give 
 
 ## How do I install this library?
 1. first install the eng-to-ipa library
-2. next, make a data directory, and inside it, clone the english-words repo
-3. now, run `python prep.py`
+~~2. next, make a data directory, and inside it, clone the english-words repo~~
+~~3. now, run `python prep.py`~~ these steps are obsolete by my adding the prep data in the repo
 4. now, to use the functions listed in util.py as a library, you must include the path to this directory in your PYTHON_PATH, or in python, the sys.path variable
